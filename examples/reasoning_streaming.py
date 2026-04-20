@@ -4,7 +4,7 @@ from termcolor import colored
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-model = "Bielik-11B-v2.5-Instruct" # Replace with your desired model
+model = "speakleash/Bielik-11B-v3.0-Instruct" # Replace with your desired model
 client = OpenAI(api_key="EMPTY", base_url="http://127.0.0.1:8000/v1") # Adjust if needed
 logging.info(f"Using model: {model}")
 
